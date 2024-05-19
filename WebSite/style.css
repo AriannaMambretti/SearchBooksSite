@@ -1,0 +1,207 @@
+body {
+  padding-bottom: 50px;
+  font-family: cursive;
+}
+
+#info-background {
+  background-image: url('/img/infoBackground.png');
+  background-size:cover;
+  font-family: cursive;
+}
+
+#infomations{
+  text-align:center;
+  padding-right: 100px;
+  padding-top: 90px;
+}
+
+header{
+padding-top: 100px
+}
+
+.navbar {
+  background-color: #46A69C;
+  border-bottom: 2px solid #A3D9D9;
+  font-family: cursive; 
+}
+
+.navbar-brand {
+  color: #000000;
+  font-size: 24px; 
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #000000;
+  margin-right: 15px; 
+  font-size: 18px; 
+}
+
+.navbar-nav .nav-link:hover {
+  color: #A3D9D9;
+}
+
+.navbar-toggler {
+  border-color: #000000; 
+}
+
+.navbar-toggler-icon {
+  background-color: #000000; 
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  color: #A3D9D9;
+}
+
+.navbar-collapse {
+  justify-content: flex-end; 
+}
+
+
+#button {
+  background-color: #46A69C;
+  color: #000000;
+
+}
+
+#search-input {
+  background-color: #dee2e2;
+  color: #000;
+  margin: 0 auto;
+  width: 30%;
+  font-family: cursive;
+}
+
+#search-button {
+  background-color: #46A69C;
+  color: #000000;
+  font-family: cursive;
+}
+
+
+#prev-page-button{
+  background-color: #000;
+  border-color: #000;
+  color: #A3D9D9;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: cursive;
+}
+
+#next-page-button {
+  background-color: #000;
+  border-color: #000;
+  color: #A3D9D9;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: cursive;
+}
+
+
+#results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: cursive;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 10px; 
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 4px 8px black;
+  transition: transform 0.3s;
+  width: 30%;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px black;
+}
+
+.book-details p {
+  margin-bottom: 10px;
+}
+
+.text-center mt-3 {
+  margin-bottom: 20px;
+}
+
+.book-card a {
+  color: black;
+  text-decoration: none;
+}
+
+.book-card h3 {
+  margin-bottom: 5px;
+  font-family: 'Arial', sans-serif; 
+}
+
+
+
+
+#book-details {
+  text-align: center; 
+  border-radius: 3%;
+  padding-top: 0px;
+  font-family: cursive;
+}
+
+#preview-button{
+  background-color:#000;
+  color:#fff;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#add-to-favorites {
+  background-color:#46A69C;
+  color:#000;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: cursive;
+}
+
+
+
+
+
+#favorite-header{
+ text-align: center;
+ padding-top: 40px;
+ font-family: cursive;
+}
+
+.favorite-book {
+  border: 1px solid #dee2e6;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.favorite-book img {
+  max-width: 100%;
+  height: auto;
+}
+
+.favorite-book button {
+  margin-top: 10px;
+  font-family: cursive;
+}
+
